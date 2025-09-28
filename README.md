@@ -1,6 +1,6 @@
 # CinePedia: A Personal Film Catalog
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Sidshot/generated-app-20250928-090722)
 
 CinePedia is a minimalist, single-page, client-side application designed as a personal film catalog. It operates entirely within the browser without needing a backend. The application loads a large, predefined list of films from an embedded JSON dataset. The user interface is clean and functional, featuring a sticky header with comprehensive controls and a main content area that displays films in a responsive grid. Key functionalities are powered by vanilla JavaScript and include: full-text search across titles, original titles, and directors; filtering by specific year or director; sorting by various criteria (year, title, etc.); and pagination for handling the large dataset. The UI also supports a dark/light theme toggle and a compact/default density view. A standout feature is its local data persistence: users can add new films, import additional films from a CSV file, and edit any entry's details or add personal notes. All user-generated additions and modifications are saved directly to the browser's localStorage, making it a personalized and offline-first cataloging tool.
 
@@ -71,7 +71,7 @@ This project is a static single-page application and can be deployed to any stat
 
 You can deploy this project to Cloudflare Pages with a single click.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Sidshot/generated-app-20250928-090722)
 
 ### Manual Deployment
 
