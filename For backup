@@ -1,0 +1,12 @@
+# 1) Full bare mirror (all branches/tags/hooks)
+git clone --mirror https://github.com/Sidshot/generated-app-20250928-090854.git
+
+# 2) Immutable bundle file (portable single-file backup)
+cd generated-app-20250928-090854.git
+git bundle create ../generated-app-20250928-090854.full.bundle --all
+cd ..
+
+# 3) Working tree snapshot (for quick browsing)
+git clone https://github.com/Sidshot/generated-app-20250928-090854.git repo-working
+tar -czf generated-app-20250928-090854.workingtree.tar.gz repo-working
+
